@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html" target="_blank">
+                <img src="images/Layout/Brand/Brand/logo-symbol.svg" ></a>
+                <span class="brand-text">Brand</span>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav_search " >
+    
+                    <input placeholder="Search " class="search_bar">
+                    <select class="select_option">
+                    <option>All categories</option>
+                    <option>Electronics</option>
+                    <option>Clothing</option>
+                    <option>Home & Garden</option>
+                    <option>Sports</option>
+                    </select>
+                    <button class="search_button">Search</button>
+                        
+                </div>
+            <div class="nav-cart border">
+        
+            <div class="nav-pro">
+                <img src="images/user-solid.svg" alt="profile img">
+                <p>Profile</p>
+            </div>
+            <div class="nav-msg">
+                <img src="images/message-solid.svg" alt="msg img">
+                <p>Message</p>
+            </div>
+            <div class="nav-orders">
+                    <img src="images/heart-solid (1).svg" alt="msg img">
+                <p>Orders</p>
+            </div>
+            <div class="nav-myc">
+                <a href="mycart.html" target="main">
+                <img src="images/cart-shopping-solid.svg" alt="cart img"></a>
+                <p>My Cart</p>
+            </div>
+        </div>
+    </div>
+    </header>
+    <div class="coner">
+        <h3>My cart (3)</h3>
+        
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="item-img">
+                        <img src="images/2 1.png" alt="T-shirt blue" >
+                    </div>
+                    <div class="itdetails">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p>Size: medium, Color: blue, Material: Plastic</p>
+                        <p>Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <button class="btnremove">Remove</button>
+                            <button class="btnsave">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="itemprice">$78.99</div>
+                    <div class="itemquantity">
+                        <select id="qty1" class="qty-select">
+                            <option value="9" selected>Qty:9</option>
+                            <option value="8">8</option>
+                            <option value="7">7</option>
+                            <option value="6">6</option>
+                            <option value="5">5</option>
+                            <option value="4">4</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                    <div class="size-dropdown">
+                        <label for="size-select">Size:</label>
+                        <select id="size-select" class="select-size">
+                          <option value="">Select Size</option>
+                          <option value="XS">XS</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                          <option value="XXL">XXL</option>
+                        </select>
+                      </div>
+                </div>
+
+                <div class="cart-item">
+                    <div class="item-img">
+                        <img src="images/image 26.png" alt="T-shirt blue">
+                    </div>
+                    <div class="itdetails">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p>Size: medium, Color: blue, Material: Plastic</p>
+                        <p>Seller:Best factory LLC</p>
+                        <div class="item-actions">
+                            <button class="btnremove">Remove</button>
+                            <button class="btnsave">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="itemprice">$39.00</div>
+                    <div class="itemquantity">
+                        <select id="qty1" class="qty-select">
+                            <option value="9" selected>Qty:3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                    <div class="size-dropdown">
+                        <label for="size-select">Size:</label>
+                        <select id="size-select" class="select-size">
+                          <option value="">Select Size</option>
+                          <option value="XS">XS</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                          <option value="XXL">XXL</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="cart-item">
+                    <div class="item-img">
+                        <img src="images/image 94.png" alt="T-shirt blue">
+                    </div>
+                    <div class="itdetails">
+                        <h3>T-shirts with multiple colors, for men and lady</h3>
+                        <p>Size: medium, Color: blue, Material: Plastic</p>
+                        <p>Seller: Artel Market</p>
+                        <div class="item-actions">
+                            <button class="btnremove">Remove</button>
+                            <button class="btnsave">Save for later</button>
+                        </div>
+                    </div>
+                    <div class="itemprice">$170.50</div>
+                    <div class="itemquantity">
+                        <select id="qty1" class="qty-select">
+                            <option value="9" selected>Qty:1</option>
+                            <option value="1">1</option>
+                        </select>
+                    </div>
+                    <div class="size-dropdown">
+                        <label for="size-select">Size:</label>
+                        <select id="size-select" class="select-size">
+                          <option value="">Select Size</option>
+                          <option value="XS">XS</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                          <option value="XXL">XXL</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="cart-actions">
+                    <button class="btn-back">
+                        <i class="fas fa-arrow-left"></i> Back to shop
+                    </button>
+                    <button class="btn-remove-all">Remove all</button>
+                </div>
+        
+            </div>
+            <div class="cart-sidebar">
+                <div class="coupon-section">
+                    <p>Have a coupon?</p>
+                    <div class="coupon-input">
+                        <input type="text" placeholder="Add coupon" class="coupon-field">
+                        <button class="btnapply">Apply</button>
+                    </div>
+                </div>
+
+                <div class="cart-summary">
+                    <div class="summaryrow">
+                        <span>Subtotal:</span>
+                        <span class="subtotal">$1403.97</span>
+                    </div>
+                    <div class="summaryrow discount">
+                        <span>Discount:</span>
+                        <span class="subtotal">-$60.00</span>
+                    </div>
+                    <div class="summaryrow tax">
+                        <span>Tax:</span>
+                        <span class="subtotal">+$14.00</span>
+                    </div>
+                    <div class="summaryrow total">
+                        <span>Total:</span>
+                        <span class="subtotal">$1357.97</span>
+                    </div>
+                    <button class="btncheckout">Checkout</button>
+
+                <div class="pay-options">
+                    <img src="images/payment5.png" alt="American Express" class="payment-icon">
+                    <img src="images/payment4.png" alt="Mastercard" class="payment-icon">
+                    <img src="images/payment3.png" alt="PayPal" class="payment-icon">
+                    <img src="images/payment2.png" alt="Visa" class="payment-icon">
+                    <img src="images/payment.png" alt="Apple Pay" class="payment-icon">
+                </div>
+            </div>
+        </div>
+</div>
+        <div class="featurs">
+            <div class="featur">
+                <div class="featureicon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="featuretext">
+                    <h3>Secure payment</h3>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+            <div class="featur">
+                <div class="featureicon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <div class="featuretext">
+                    <h3>Customer support</h3>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+            <div class="featur">
+                <div class="featureicon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <div class="featuretext">
+                    <h3>Free delivery</h3>
+                    <p>Have you ever finally just</p>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div class="saved-container">
+        <h4>Saved for later</h4>
+        <div class="productgrid">
+            <div class="productcard">
+                <div class="productimage">
+                    <img src="images/image 32.png" alt="Xiaomi Tablet">
+                </div>
+                <div class="productprice">$99.50</div>
+                <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                <button class="btn-move-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Move to cart
+                </button>
+            </div>
+            <div class="productcard">
+                <div class="productimage">
+                    <img src="images/image 22.png" alt="iPhone">
+                </div>
+                <div class="productprice">$99.50</div>
+                <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                <button class="btn-move-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Move to cart
+                </button>
+            </div>
+            <div class="productcard">
+                <div class="productimage">
+                    <img src="images/image 35.png" alt="Smartwatch">
+                </div>
+                <div class="productprice">$99.50</div>
+                <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                <button class="btn-move-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Move to cart
+                </button>
+            </div>
+            <div class="productcard">
+                <div class="productimage">
+                    <img src="images/image 34.png" alt="Laptop">
+                </div>
+                <div class="productprice">$99.50</div>
+                <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                <button class="btn-move-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Move to cart
+                </button>
+            </div>
+        </div>
+        
+        <div class="swiper-button-container">
+            <div class="swiper-button-prev">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="swiper-button-next">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+        
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="productcard">
+                        <div class="productimage">
+                            <img src="images/image 32.png" alt="Xiaomi Tablet">
+                        </div>
+                        <div class="productprice">$99.50</div>
+                        <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                        <button class="btn-move-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="productcard">
+                        <div class="productimage">
+                            <img src="images/image 22.png" alt="iPhone">
+                        </div>
+                        <div class="productprice">$99.50</div>
+                        <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                        <button class="btn-move-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="productcard">
+                        <div class="productimage">
+                            <img src="images/image 35.png" alt="Smartwatch">
+                        </div>
+                        <div class="productprice">$99.50</div>
+                        <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                        <button class="btn-move-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="productcard">
+                        <div class="productimage">
+                            <img src="images/image 34.png" alt="Laptop">
+                        </div>
+                        <div class="productprice">$99.50</div>
+                        <div class="producttitle">GoPro HERO6 4K Action Camera - Black</div>
+                        <button class="btn-move-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Move to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-nav">
+            <div class="swiper-pagination-bullet swiper-pagination-bullet-active"></div>
+            <div class="swiper-pagination-bullet"></div>
+            <div class="swiper-pagination-bullet"></div>
+            <div class="swiper-pagination-bullet"></div>
+        </div>
+    </div>
+
+    <div class="promo-banner">
+        <div class="banner-content">
+            <div class="text-container">
+                <h3 class="banner-title">Super discount on more than 100 USD</h3>
+                <p class="banner-subtitle">Have you ever finally just write dummy info</p>
+            </div>
+            <div class="button-container">
+                <a href="#" class="shop-button">Shop now</a>
+            </div>
+        </div>
+    </div>
+        
+    <footer>
+        <div class="foot1">
+            <div class="foot1-letter">
+                <h3>Subscribe on our newsletter<br></h3>
+                <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+                <input placeholder="Email" class="Email"><button class="subscribe_button">Subscribe</button>
+    
+            </div>
+        </div>
+            
+        <div class="footer-container">
+        <div class="brand-section">
+            <img src="images/logo-colored.png" class="logo2">
+            <p>Best information about the company<br>gies here but now lorem ipsum is</p>
+            <div class="foot2-1img">
+                    <img src="images/facebook3.png">   
+                    <img src="images/Combined Shape.png">  
+                     <img src="images/insta.png">   
+                     <img src="images/twitter3.png">   
+                     <img src="images/Fill 209.png">
+                </div>
+        </div>
+    
+        <div class="footer-section">
+            <h2>About</h2>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Find store</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h2>Partnership</h2>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Find store</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h2>Information</h2>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Money Refund</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h2>For users</h2>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">My Orders</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h2>Get app</h2>
+            <img src="images/market-button.png">
+            <img src="images/Group.png">
+        </div>
+    
+        <div class="copyright">
+            © 2023 Ecommerce.
+            <div class="cntry">
+                <img src="images/usa.png" ><select class="cntry-sel"><option>English</option></select>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+            const mobileToggle = document.getElementById('mobile-menu-toggle');
+            const menuItems = document.getElementById('menu-items');
+            function checkScreenSize() {
+                if (window.innerWidth <= 768) {
+                    menuItems.classList.remove('show');
+                } else {
+                    menuItems.classList.add('show');
+                }
+            }
+            checkScreenSize();
+            mobileToggle.addEventListener('click', function() {
+                menuItems.classList.toggle('show');
+                mobileToggle.classList.toggle('active');
+            });
+            
+            window.addEventListener('resize', checkScreenSize);
+        });
+      document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-cart').classList.toggle('show');
+            document.querySelector('.nav_search').classList.toggle('show');
+        });
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchBar = document.querySelector('.search_bar');
+        const searchButton = document.querySelector('.search_button');
+        
+        searchBar.addEventListener('focus', function() {
+            this.style.borderColor = '#0b5ed7';
+        });
+        
+        searchBar.addEventListener('blur', function() {
+            this.style.borderColor = '#0D6EFD';
+        });
+        searchButton.addEventListener('mousedown', function() {
+            this.style.backgroundColor = '#0951c3';
+        });
+        
+        searchButton.addEventListener('mouseup', function() {
+            this.style.backgroundColor = '#0D6EFD';
+            
+            // Just for visual feedback (non-functional)
+            if (searchBar.value.trim() !== '') {
+                alert('This is a non-functional search bar for demonstration purposes only.');
+            } else {
+                searchBar.placeholder = 'Please enter a search term...';
+                setTimeout(() => {
+                    searchBar.placeholder = 'Search';
+                }, 2000);
+            }
+        });
+        
+        // Add dropdown animation for select
+        const selectOption = document.querySelector('.select_option');
+        selectOption.addEventListener('change', function() {
+            this.blur();
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+            // Remove buttons
+            const removeButtons = document.querySelectorAll('.btnremove');
+            removeButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const cartItem = this.closest('.cart-item');
+                    if(cartItem) {
+                        cartItem.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Remove all button
+            const removeAllButton = document.querySelector('.btn-remove-all');
+            if(removeAllButton) {
+                removeAllButton.addEventListener('click', function() {
+                    const cartItems = document.querySelectorAll('.cart-item');
+                    cartItems.forEach(item => {
+                        item.style.display = 'none';
+                    });
+                });
+            }
+            
+            // Back to shop button
+            const backButton = document.querySelector('.btn-back');
+            if(backButton) {
+                backButton.addEventListener('click', function() {
+                    alert('Returning to shop...');
+                });
+            }
+            
+            // Checkout button
+            const checkoutButton = document.querySelector('.btncheckout');
+            if(checkoutButton) {
+                checkoutButton.addEventListener('click', function() {
+                    alert('Proceeding to checkout...');
+                });
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const swiperContainer = document.querySelector('.swiper-container');
+            const swiperWrapper = document.querySelector('.swiper-wrapper');
+            const slides = document.querySelectorAll('.swiper-slide');
+            const bullets = document.querySelectorAll('.swiper-pagination-bullet');
+            const prevButton = document.querySelector('.swiper-button-prev');
+            const nextButton = document.querySelector('.swiper-button-next');
+            
+            let currentIndex = 0;
+            let startX, moveX;
+            
+            // Handle pagination bullets
+            bullets.forEach((bullet, index) => {
+                bullet.addEventListener('click', () => {
+                    goToSlide(index);
+                });
+            });
+            
+            // Handle prev/next buttons
+            if (prevButton) {
+                prevButton.addEventListener('click', () => {
+                    if (currentIndex > 0) {
+                        goToSlide(currentIndex - 1);
+                    }
+                });
+            }
+            
+            if (nextButton) {
+                nextButton.addEventListener('click', () => {
+                    if (currentIndex < slides.length - 1) {
+                        goToSlide(currentIndex + 1);
+                    }
+                });
+            }
+            
+            // Touch events for swiping
+            swiperContainer.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].clientX;
+            });
+            
+            swiperContainer.addEventListener('touchmove', (e) => {
+                moveX = e.touches[0].clientX;
+            });
+            
+            swiperContainer.addEventListener('touchend', () => {
+                if (startX - moveX > 50) {
+                    // Swipe left
+                    if (currentIndex < slides.length - 1) {
+                        goToSlide(currentIndex + 1);
+                    }
+                } else if (moveX - startX > 50) {
+                    // Swipe right
+                    if (currentIndex > 0) {
+                        goToSlide(currentIndex - 1);
+                    }
+                }
+            });
+            
+            // Scroll event for swiper container
+            swiperContainer.addEventListener('scroll', () => {
+                const scrollPosition = swiperContainer.scrollLeft;
+                const slideWidth = slides[0].offsetWidth;
+                const newIndex = Math.round(scrollPosition / slideWidth);
+                
+                if (newIndex !== currentIndex && newIndex >= 0 && newIndex < slides.length) {
+                    updateBullets(newIndex);
+                    currentIndex = newIndex;
+                }
+            });
+            
+            // Function to go to a specific slide
+            function goToSlide(index) {
+                const slideWidth = slides[0].offsetWidth;
+                swiperContainer.scrollTo({
+                    left: slideWidth * index,
+                    behavior: 'smooth'
+                });
+                updateBullets(index);
+                currentIndex = index;
+            }
+            
+            // Function to update bullet indicators
+            function updateBullets(index) {
+                bullets.forEach((bullet, i) => {
+                    if (i === index) {
+                        bullet.classList.add('swiper-pagination-bullet-active');
+                    } else {
+                        bullet.classList.remove('swiper-pagination-bullet-active');
+                    }
+                });
+            }
+            
+            // Move to cart button functionality
+            const moveToCartButtons = document.querySelectorAll('.btn-move-to-cart');
+            moveToCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const card = this.closest('.productcard');
+                    card.style.opacity = '0.5';
+                    button.textContent = 'Added to cart';
+                    button.style.backgroundColor = '#E6F2FF';
+                    
+                    // Reset after animation
+                    setTimeout(() => {
+                        card.style.opacity = '0';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }, 1000);
+                });
+            });
+        });
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html" target="_blank">
+                    <img src="images/Layout/Brand/Brand/logo-symbol.svg" >
+                </a>
+                    <span class="brand-text">Brand</span>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav_search " >
+    
+                    <input placeholder="Search " class="search_bar">
+                    <select class="select_option">
+                    <option>All categories</option>
+                    <option>Electronics</option>
+                    <option>Clothing</option>
+                    <option>Home & Garden</option>
+                    <option>Sports</option>
+                    </select>
+                    <button class="search_button">Search</button>
+                        
+                </div>
+            <div class="nav-cart border">
+        
+            <div class="nav-pro">
+                <img src="images/user-solid.svg" alt="profile img">
+                <p>Profile</p>
+            </div>
+            <div class="nav-msg">
+                <img src="images/message-solid.svg" alt="msg img">
+                <p>Message</p>
+            </div>
+            <div class="nav-orders">
+                    <img src="images/heart-solid (1).svg" alt="msg img">
+                <p>Orders</p>
+            </div>
+            <div class="nav-myc">
+                <a href="page-5.html" target="main">
+                <img src="images/cart-shopping-solid.svg" alt="cart img"></a>
+                <p>My Cart</p>
+            </div>
+        </div>
+    </div>
+    <div class="panel">
+        <div class="panel-op">
+            <p class="op1 border">
+                <img src="images/menu.png" alt="Menu">ALL Category
+            </p>
+            <p class="op2 border">Hot offers</p>
+            <p class="op3 border">Gift boxes</p>
+            <p class="op4 border">Menu item</p>
+            <p class="op5 border">Projects</p>
+            <p class="op6 border">
+                Help <img src="images/expand_more.png" alt="Expand">
+            </p>
+        </div>
+        <div class="panel-lang border">
+            <select class="lang_option">
+                <option>English,USA</option>
+            </select>
+        </div>
+        <div class="panel-ship border">
+            Ship To <img src="images/germany.png" alt="Germany"><img src="images/expand_more.png" alt="Expand">
+        </div>
+    </div>
+    </header>
+    <div class="breadcrumb-container">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Clothings</a></li>
+            <li><a href="#">Men's wear</a></li>
+            <a href="page-4.html" target="main">
+            <li class="active">Summer clothing</li>
+        </a>
+        </ul>
+    </div>
+<div class="content">
+
+<div class="content-wrapper">
+    <div class="filter-sidebar" id="filterSidebar">
+        <button class="close-filter" id="closeFilter">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="filter-section">
+            <div class="filter-header">
+                <h6>Category</h6>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="filter-content">
+                <ul>
+                    <li><a href="#">Mobile accessory</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Modern tech</a></li>
+                    <li><a class="see-all" href="#">See all</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-header">
+                <h6>Brands</h6>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="filter-content">
+                <ul class="checkbox-list">
+                    <li>
+                        <input type="checkbox" id="samsung">
+                        <label for="samsung">Samsung</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="apple">
+                        <label for="apple">Apple</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="huawei">
+                        <label for="huawei">Huawei</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="poco">
+                        <label for="poco">Poco</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="lenovo">
+                        <label for="lenovo">Lenovo</label>
+                    </li>
+                    <li><a class="see-all" href="#">See all</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-header">
+                <h6>Features</h6>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="filter-content">
+                <ul class="checkbox-list">
+                    <li>
+                        <input type="checkbox" id="metallic">
+                        <label for="metallic">Metallic</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="plastic-cover">
+                        <label for="plastic-cover">Plastic cover</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="8gb-ram">
+                        <label for="8gb-ram">8GB Ram</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="super-power">
+                        <label for="super-power">Super power</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="large-memory">
+                        <label for="large-memory">Large Memory</label>
+                    </li>
+                    <li><a class="see-all" href="#">See all</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="filter-section4">
+            <div class="filter-header">
+                <h6>Price range</h6>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="filter-content">
+                <div class="price-slider">
+                    <input type="range" min="0" max="1000" value="500" class="slider" id="priceRange">
+                    <div class="price-inputs">
+                        <div class="price-input">
+                            <label for="min-price">Min</label>
+                            <input type="number" id="min-price" value="0">
+                        </div>
+                        <div class="price-input">
+                            <label for="max-price">Max</label>
+                            <input type="number" id="max-price" value="1000">
+                        </div>
+                    </div>
+                    <button class="apply-btn">Apply</button>
+                </div>
+            </div>
+        </div>
+        <div class="filter-section5">
+            <div class="filter-header">
+                <h6>Condition</h6>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="filter-content">
+                <ul class="radio-list">
+                    <li>
+                        <input type="radio" name="condition" id="any" checked>
+                        <label for="any">Any</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="condition" id="refurbished">
+                        <label for="refurbished">Refurbished</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="condition" id="brand-new">
+                        <label for="brand-new">Brand new</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="condition" id="old-items">
+                        <label for="old-items">Old items</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="filter-section5">
+            <div class="filter-header">
+                <h6>Ratings</h6>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+            <div class="filter-content">
+                <ul class="checkbox-list">
+                    <li>
+                        <input type="checkbox" id="five-stars">
+                        <label for="five-stars">
+                            <span class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="four-stars">
+                        <label for="four-stars">
+                            <span class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star empty"></i>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="three-stars">
+                        <label for="three-stars">
+                            <span class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star empty"></i>
+                                <i class="fa fa-star empty"></i>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="two-stars">
+                        <label for="two-stars">
+                            <span class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star empty"></i>
+                                <i class="fa fa-star empty"></i>
+                                <i class="fa fa-star empty"></i>
+                            </span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="filter-bar">
+            <div class="product-count">
+                <span class="count">12,911</span> items in <span class="category">Mobile accessory</span>
+            </div>
+            
+            <div class="filter-options">
+                <div class="verified-checkbox">
+                    <label class="checkbox-container">
+                        <input type="checkbox" checked>
+                        <span class="checkmark"></span>
+                        Verified only
+                    </label>
+                </div>
+                
+                <div class="dropdown-filter">
+                    <select class="dropdown">
+                        <option>Featured</option>
+                    </select>
+                </div>
+                
+                <div class="view-options">
+                    <a href="page-3.html" target="main">
+                    <button class="view-btn grid-view" >
+                        <i class="fas fa-th"></i>
+                    </button>
+                </a>
+                    <button class="view-btn list-view active">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+<div class="product-listing">
+    <div class="products-cards">
+        <div class="products-images">
+            <img src="images/image 28.png" alt="Canon Cinema EOS 2000">
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="products-infos">
+            <h3 class="products-titles">Canon Cinema EOS 2000, Black 18x zoom</h3>
+            <div class="products-prices">
+                <span class="current-price">$998.00</span>
+                <span class="original-price">$1198.00</span>
+            </div>
+            <div class="rating">
+                <div class="starssss">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-value">7.5</span>
+                <span class="reviews-count">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p class="products-des">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="view-det">View details</a>
+        </div>
+    </div>
+    <div class="products-cards">
+        <div class="products-images">
+            <img src="images/image 23.png" alt="GoPro HERO 4K Action Camera">
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="products-infos">
+            <h3 class="products-titles">GoPro HERO 4K Action Camera - Black</h3>
+            <div class="products-prices">
+                <span class="current-price">$998.00</span>
+            </div>
+            <div class="rating">
+                <div class="starssss">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-value">7.5</span>
+                <span class="reviews-count">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p class="products-des">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+            </p>
+            <a href="#" class="view-det">View details</a>
+        </div>
+    </div>
+    <div class="products-cards">
+        <div class="products-images">
+            <img src="images/image 32.png" alt="GoPro HERO 4K Action Camera">
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="products-infos">
+            <h3 class="products-titles">GoPro HERO 4K Action Camera - Black</h3>
+            <div class="products-prices">
+                <span class="current-price">$998.00</span>
+            </div>
+            <div class="rating">
+                <div class="starssss">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-value">7.5</span>
+                <span class="reviews-count">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p class="products-des">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+            </p>
+            <a href="#" class="view-det">View details</a>
+        </div>
+    </div>
+    <div class="products-cards">
+        <div class="products-images">
+            <img src="images/image 34.png" alt="GoPro HERO 4K Action Camera">
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="products-infos">
+            <h3 class="products-titles">GoPro HERO 4K Action Camera - Black</h3>
+            <div class="products-prices">
+                <span class="current-price">$998.00</span>
+            </div>
+            <div class="rating">
+                <div class="starssss">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-value">7.5</span>
+                <span class="reviews-count">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p class="products-des">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+            </p>
+            <a href="#" class="view-det">View details</a>
+        </div>
+    </div>   <div class="products-cards">
+        <div class="products-images">
+            <img src="images/image 35.png" alt="GoPro HERO 4K Action Camera">
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="products-infos">
+            <h3 class="products-titles">GoPro HERO 4K Action Camera - Black</h3>
+            <div class="products-prices">
+                <span class="current-price">$998.00</span>
+            </div>
+            <div class="rating">
+                <div class="starssss">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-value">7.5</span>
+                <span class="reviews-count">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p class="products-des">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+            </p>
+            <a href="#" class="view-det">View details</a>
+        </div>
+    </div>
+    <div class="products-cards">
+        <div class="products-images">
+            <img src="images/image 86.png" alt="GoPro HERO 4K Action Camera">
+            <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="products-infos">
+            <h3 class="products-titles">GoPro HERO 4K Action Camera - Black</h3>
+            <div class="products-prices">
+                <span class="current-price">$998.00</span>
+            </div>
+            <div class="rating">
+                <div class="starssss">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-value">7.5</span>
+                <span class="reviews-count">154 orders</span>
+                <span class="shipping">Free Shipping</span>
+            </div>
+            <p class="products-des">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+            </p>
+            <a href="#" class="view-det">View details</a>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+<button class="filter-toggle" id="filterToggle">
+    <i class="fas fa-filter"></i>
+</button>
+<div class="filter-overlay" id="filterOverlay"></div>
+</div>
+
+<div class="pagination-container">
+    <div class="show-items">
+      <select>
+        <option>Show 10</option>
+        <option>Show 20</option>
+        <option>Show 50</option>
+        <option>Show 100</option>
+      </select>
+    </div>
+    <div class="page-nav">
+      <button class="prev-page">
+        &lt;
+      </button>
+      <div class="page-number active">1</div>
+      <div class="page-number ">2</div>
+      <div class="page-number">3</div>
+      <button class="next-page">
+        &gt;
+      </button>
+    </div>
+  </div>
+<footer>
+    <div class="foot1">
+        <div class="foot1-letter">
+            <h3>Subscribe on our newsletter<br></h3>
+            <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+            <input placeholder="Email" class="Email"><button class="subscribe_button">Subscribe</button>
+
+        </div>
+    </div>
+        
+    <div class="footer-container">
+    <div class="brand-section">
+        <img src="images/logo-colored.png" class="logo2">
+        <p>Best information about the company<br>gies here but now lorem ipsum is</p>
+        <div class="foot2-1img">
+                <img src="images/facebook3.png">   
+                <img src="images/Combined Shape.png">  
+                 <img src="images/insta.png">   
+                 <img src="images/twitter3.png">   
+                 <img src="images/Fill 209.png">
+            </div>
+    </div>
+
+    <div class="footer-section">
+        <h2>About</h2>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Find store</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Blogs</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h2>Partnership</h2>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Find store</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Blogs</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h2>Information</h2>
+        <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Money Refund</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h2>For users</h2>
+        <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">My Orders</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-section">
+        <h2>Get app</h2>
+        <img src="images/market-button.png">
+        <img src="images/Group.png">
+    </div>
+
+    <div class="copyright">
+        © 2023 Ecommerce.
+        <div class="cntry">
+            <img src="images/usa.png" ><select class="cntry-sel"><option>English</option></select>
+        </div>
+    </div>
+</div>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const filterToggle = document.getElementById('filterToggle');
+        const filterSidebar = document.getElementById('filterSidebar');
+        const filterOverlay = document.getElementById('filterOverlay');
+        const closeFilter = document.getElementById('closeFilter');
+        const filterHeaders = document.querySelectorAll('.filter-header');
+        filterHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('i');
+                
+                if (content.style.display === 'none') {
+                    content.style.display = 'block';
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    content.style.display = 'none';
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+
+        // Mobile filter toggle
+        filterToggle.addEventListener('click', function() {
+            filterSidebar.classList.add('active');
+            filterOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        // Close filter on mobile
+        closeFilter.addEventListener('click', function() {
+            filterSidebar.classList.remove('active');
+            filterOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        filterOverlay.addEventListener('click', function() {
+            filterSidebar.classList.remove('active');
+            filterOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        // Price range slider
+        const priceRange = document.getElementById('priceRange');
+        const minPrice = document.getElementById('min-price');
+        const maxPrice = document.getElementById('max-price');
+
+        priceRange.addEventListener('input', function() {
+            maxPrice.value = this.value;
+        });
+
+        minPrice.addEventListener('input', function() {
+            if (parseInt(this.value) > parseInt(maxPrice.value)) {
+                this.value = maxPrice.value;
+            }
+        });
+
+        maxPrice.addEventListener('input', function() {
+            if (parseInt(this.value) < parseInt(minPrice.value)) {
+                this.value = minPrice.value;
+            }
+            priceRange.value = this.value;
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+            const mobileToggle = document.getElementById('mobile-menu-toggle');
+            const menuItems = document.getElementById('menu-items');
+            function checkScreenSize() {
+                if (window.innerWidth <= 768) {
+                    menuItems.classList.remove('show');
+                } else {
+                    menuItems.classList.add('show');
+                }
+            }
+            checkScreenSize();
+            mobileToggle.addEventListener('click', function() {
+                menuItems.classList.toggle('show');
+                mobileToggle.classList.toggle('active');
+            });
+            
+            window.addEventListener('resize', checkScreenSize);
+        });
+      document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-cart').classList.toggle('show');
+            document.querySelector('.nav_search').classList.toggle('show');
+        });
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchBar = document.querySelector('.search_bar');
+        const searchButton = document.querySelector('.search_button');
+        
+        searchBar.addEventListener('focus', function() {
+            this.style.borderColor = '#0b5ed7';
+        });
+        
+        searchBar.addEventListener('blur', function() {
+            this.style.borderColor = '#0D6EFD';
+        });
+        searchButton.addEventListener('mousedown', function() {
+            this.style.backgroundColor = '#0951c3';
+        });
+        
+        searchButton.addEventListener('mouseup', function() {
+            this.style.backgroundColor = '#0D6EFD';
+            
+            // Just for visual feedback (non-functional)
+            if (searchBar.value.trim() !== '') {
+                alert('This is a non-functional search bar for demonstration purposes only.');
+            } else {
+                searchBar.placeholder = 'Please enter a search term...';
+                setTimeout(() => {
+                    searchBar.placeholder = 'Search';
+                }, 2000);
+            }
+        });
+        
+        // Add dropdown animation for select
+        const selectOption = document.querySelector('.select_option');
+        selectOption.addEventListener('change', function() {
+            this.blur();
+        });
+    });
+</script>
+</body>
+</html>
